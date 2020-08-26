@@ -23,6 +23,8 @@ public class FlamesCheck extends HttpServlet {
 
 	public FlamesCheck() {
 		super();
+		
+		
 
 	}
 

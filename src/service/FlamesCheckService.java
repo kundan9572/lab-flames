@@ -15,25 +15,20 @@ public class FlamesCheckService{
 		}
 		
 		// You must return only the following values ['f','l','a','m','e','s']
-		switch(count) {
-		case 1 : if(count==1)
-					return 'f';
-					break;
-		case 2 : if(count==2)
-					return 'l';
-					break;
-		case 3: if(count==3)
-					return 'a';
-					break;
-		case 4: if(count ==4)
-					return 'm';
-					break;
-		case 5: if(count==5)
-					return 'e';
-					break;	
-		case 6 : if(count==6)
-					return 's';
-					break;
+		for(int i=1;i<=count;i++) {
+			if(i==1)
+				return 'f';
+			else if(i==2)
+				return 'l';
+			else if(i==3)
+				return 'a';
+			else if(i==4)
+				return 'm';
+			else if(i==5)
+				return 'e';
+			else if(i==6)
+				return 's';
+			
 		}
 		// change the return value at the end of the method corresponding to your return value
 

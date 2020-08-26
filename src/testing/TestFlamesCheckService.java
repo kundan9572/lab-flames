@@ -15,6 +15,7 @@ public class TestFlamesCheckService {
  		assertEquals(temp,fcs.findFlames(name1, name2));
  		name1 = "Steffe";
  		name2 = "Bobby";
+ 		
  		temp = 'm';
  		assertEquals(temp,fcs.findFlames(name1, name2));
  		name1 = "John";
