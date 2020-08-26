@@ -38,6 +38,7 @@ public class FlamesCheckService{
 		// change the return value at the end of the method corresponding to your return value
 
 		return 'f';
+		
 	}
 	
 	
